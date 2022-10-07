@@ -23,7 +23,7 @@ fn main() {
 }
 
 fn calc(a: f64, b: f64, c: f64, d: f64) -> f64 {
-(a/b * b/d) - (a*b - c)/c*d //функция calc выполняет (a/c * b/d) - (a*b - c)/c*d
+(a/b * b/d) - (a*b - c)/(c*d) //функция calc выполняет (a/c * b/d) - (a*b - c)/c*d
 }
 
 fn read_var() -> f64 {
