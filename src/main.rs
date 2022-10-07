@@ -45,7 +45,7 @@ fn read_var() -> f64 {
 }
 
 fn pause() { //фукция паузы
+    println!("нажмите Enter чтобы выйти.");
     let mut q = String::new();
     stdin().read_line(&mut q).expect("ошибка");
-    println!("нажмите Enter чтобы выйти.");
 }
